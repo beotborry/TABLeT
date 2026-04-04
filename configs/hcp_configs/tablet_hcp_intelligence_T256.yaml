@@ -1,0 +1,52 @@
+data:
+  dataset: "HCP"
+  root_dir: "/path/to/HCP_data"
+  img_dir: "/path/to/HCP_data"
+  train_ratio: 0.8
+  val_ratio: 0.1
+  num_workers: 4
+  task: "intelligence"
+  num_frames: None
+  num_input_frames: 256
+  frame_iid: False
+  slice_axis: 'axis0'
+  class_balanced: False
+  pos_weight: True
+  FD: 0.0
+  data_type: 'token'
+  random_sample_frames: True
+
+model:
+  name: "TABLeT"
+  params:
+    input_feature_size: 3072
+    num_tokens_per_frame: 27
+    num_classes: 1
+    num_layers: 12
+    num_heads: 14
+    num_kv_heads: 2
+    d_model: 896
+    d_ff: 4864
+    dropout: 0.0
+    feature_dropout: False
+    hidden_act: 'relu'
+    norm_type: 'ln'
+    mlp_type: 'vanilla'
+    qk_norm: False
+    input_norm: True
+    out_norm: False
+    feature_norm: True
+
+train:
+  optim:
+    name: AdamW
+  lr_scheduler:
+    name: CosineAnnealingLR
+  mixed_precision: float16
+  save_dir: "saved_models/HCP_intelligence"
+  verbose: True
+  use_warmup: False
+  use_TR: False
+
+wandb:
+  project: "tablet"

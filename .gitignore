@@ -1,0 +1,13 @@
+*.pth
+*.pt
+*.tar
+*.tar.gz
+*.zip
+*.nii.gz
+*.ipynb
+__pycache__/
+wandb/
+scripts/
+pbs_logs/
+saved_models/
+.claude/
