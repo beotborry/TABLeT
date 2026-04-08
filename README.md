@@ -90,7 +90,7 @@ This launches parallel experiments across 4 GPUs with learning rates `{1e-6, 1e-
 |---|---|
 | `--config` | Path to YAML config file |
 | `--num-axis` | Number of slice axes (1 or 3) |
-| `--test-set-id` | Cross-validation fold index (0-3) |
+| `--test-set-id` | train/val/test split idx (0-3) |
 | `--lr` | Learning rate |
 | `--batch-size` | Batch size per GPU |
 | `--epochs` | Number of training epochs |
