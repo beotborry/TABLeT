@@ -2,6 +2,14 @@
 
 Official implementation of **Can Natural Image Autoencoders Compactly Tokenize fMRI Volumes for Long-Range Dynamics Modeling?** (CVPR 2026).
 
+<div align="center">
+
+[![arXiv](https://img.shields.io/badge/arXiv-XXXX.XXXXX-brown?logo=arxiv&style=flat-square)](https://arxiv.org/abs/2604.03619)
+&nbsp;
+[![Project Page](https://img.shields.io/badge/Project%20Page-0A7B83?style=flat-square)](https://concarne2.github.io/tablet_project_page/)
+
+</div>
+
 ## Overview
 
 TABLeT is a brain foundation model for general-purpose fMRI analysis. It tokenizes 3D fMRI volumes using a pretrained image tokenizer (DC-AE) and processes the resulting spatiotemporal token sequences with a Grouped Query Attention (GQA) Transformer.
