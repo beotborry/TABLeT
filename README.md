@@ -4,7 +4,7 @@ Official implementation of **Can Natural Image Autoencoders Compactly Tokenize f
 
 <div align="center">
 
-[![arXiv](https://img.shields.io/badge/arXiv-XXXX.XXXXX-brown?logo=arxiv&style=flat-square)](https://arxiv.org/abs/2604.03619)
+[![arXiv](https://img.shields.io/badge/arXiv-2604.03619-brown?logo=arxiv&style=flat-square)](https://arxiv.org/abs/2604.03619)
 &nbsp;
 [![Project Page](https://img.shields.io/badge/Project%20Page-0A7B83?style=flat-square)](https://concarne2.github.io/tablet_project_page/)
 
