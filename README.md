@@ -147,5 +147,5 @@ If you find this work useful, please cite:
 
 
 ## License
-
-TBD
+This project is released under the Apache 2.0 License.
+See `LICENSE` for details.
