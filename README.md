@@ -14,7 +14,7 @@ Official implementation of **Can Natural Image Autoencoders Compactly Tokenize f
 
 ## Overview
 
-TABLeT is a brain foundation model for general-purpose fMRI analysis. It tokenizes 3D fMRI volumes using a pretrained image tokenizer (DC-AE) and processes the resulting spatiotemporal token sequences with a Grouped Query Attention (GQA) Transformer.
+TABLeT is a model for general-purpose fMRI analysis. It tokenizes 3D fMRI volumes using a pretrained image tokenizer (DC-AE) and processes the resulting spatiotemporal token sequences with a Transformer.
 
 **Supported downstream tasks:**
 - **Regression:** Age prediction, intelligence prediction
