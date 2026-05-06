@@ -7,6 +7,8 @@ Official implementation of **Can Natural Image Autoencoders Compactly Tokenize f
 [![arXiv](https://img.shields.io/badge/arXiv-2604.03619-brown?logo=arxiv&style=flat-square)](https://arxiv.org/abs/2604.03619)
 &nbsp;
 [![Project Page](https://img.shields.io/badge/Project%20Page-0A7B83?style=flat-square)](https://concarne2.github.io/tablet_project_page/)
+&nbsp;
+[![HuggingFace](https://img.shields.io/badge/%F0%9F%A4%97%20HuggingFace-Model-FFD21E?style=flat-square)](https://huggingface.co/beotborry/TABLeT_pretrained)
 
 </div>
 
