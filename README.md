@@ -36,17 +36,6 @@ pip install monai --no-deps
 pip install flash-attn==2.7.4.post1 --no-build-isolation
 ```
 
-## Pretrained Weights
-
-A masked-pretraining checkpoint trained on UK Biobank is available on HuggingFace Hub: [**beotborry/TABLeT_pretrained**](https://huggingface.co/beotborry/TABLeT_pretrained). It contains the cleaned encoder state_dict (pretraining-only keys `mask_token`, `decoder.*`, `TR_embedding` are stripped) and an architecture `config.json`.
-
-Load via the wrapper class in `hf_upload.py`:
-
-```python
-from hf_upload import TABLeTForHub
-model = TABLeTForHub.from_pretrained("beotborry/TABLeT_pretrained")
-```
-
 ## Data Preparation
 
 ### 1. Tokenize fMRI volumes with DC-AE
