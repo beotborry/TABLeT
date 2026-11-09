@@ -146,7 +146,16 @@ TABLeT/
 ## Citation
 
 If you find this work useful, please cite:
-
+```
+@InProceedings{Kim_2026_CVPR,
+    author    = {Kim, Peter Yongho and Park, Juhyeon and Park, Jungwoo and Choi, Jubin and Seo, Jungwoo and Cha, Jiook and Moon, Taesup},
+    title     = {Can Natural Image Autoencoders Compactly Tokenize fMRI Volumes for Long-Range Dynamics Modeling?},
+    booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
+    month     = {June},
+    year      = {2026},
+    pages     = {35321-35330}
+}
+```
 
 ## License
 This project is released under the Apache 2.0 License.
